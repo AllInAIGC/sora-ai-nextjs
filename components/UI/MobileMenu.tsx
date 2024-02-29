@@ -76,6 +76,16 @@ export default function MobileMenu({ userId }: { userId: string | null }) {
           <ul className='px-5 py-2'>
             <li>
               <Link
+                href='/sora-ai-videos'
+                className='flex py-2 text-gray-600 hover:text-gray-900'
+                onClick={() => setMobileNavOpen(false)}
+              >
+                Videos
+              </Link>
+            </li>
+
+            <li>
+              <Link
                 href='/blog'
                 className='flex py-2 text-gray-600 hover:text-gray-900'
                 onClick={() => setMobileNavOpen(false)}

@@ -44,6 +44,15 @@ export default function Header() {
             <ul className='flex flex-wrap items-center justify-end grow'>
               <li>
                 <Link
+                  href='/sora-ai-videos'
+                  className='flex items-center px-3 py-2 text-gray-600 transition duration-150 ease-in-out hover:text-gray-900 lg:px-5'
+                >
+                  Videos
+                </Link>
+              </li>
+
+              <li>
+                <Link
                   href='/blog'
                   className='flex items-center px-3 py-2 text-gray-600 transition duration-150 ease-in-out hover:text-gray-900 lg:px-5'
                 >

@@ -7,6 +7,7 @@ export default authMiddleware({
     '/terms-of-service',
     '/faq',
     '/blog',
+    '/sora-ai-videos',
     /^\/blog\/*/,
     '/sign-in',
     '/sign-up',
